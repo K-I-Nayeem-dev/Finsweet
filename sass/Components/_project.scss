@@ -1,0 +1,176 @@
+#project{
+    padding: 116px 0 96px 0;
+    .pro_text{
+        margin-bottom: 64px;
+        h2{
+            font-size: 48px;
+            font-weight: 600;
+        }
+        .pro{
+            a{
+                margin-right: 18px;
+                font-weight: 500;
+                color: #282938;
+            }
+            i{
+                color: #282938;
+                margin-top: 5px;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+            }
+            &:hover i{
+                transform: translateX(10px);
+                -webkit-transform: translateX(10px);
+                -moz-transform: translateX(10px);
+                -ms-transform: translateX(10px);
+                -o-transform: translateX(10px);
+            }
+        }
+    }
+    .pro_img{
+        position: relative;
+        overflow: hidden;
+        .pro_img_over{
+            position: absolute;
+            width: 0;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+            opacity: 0;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            .pro_o_text{
+                position: absolute;
+                bottom: 72px;
+                left: 0;
+                transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                -o-transform: translateX(-50%);
+                transition: 0.8s;
+                -webkit-transition: 0.8s;
+                -moz-transition: 0.8s;
+                -ms-transition: 0.8s;
+                -o-transition: 0.8s;
+                h2{
+                    width: 313px;
+                   font-size: 24px; 
+                   font-weight: 600;
+                   line-height: 36px;
+                   color: #fff;
+                   margin-bottom: 1px;
+                }
+                p{
+                    width: 270px;
+                    font-weight: 500;
+                    line-height: 28px;
+                    margin-bottom: 26px;
+                    color: #fff;
+                }
+                .proo{
+                    a{
+                        margin-right: 18px;
+                        font-weight: 500;
+                        color: #FCD980;
+                    }
+                    i{
+                        color: #FCD980;
+                        margin-top: 5px;
+                        transition: 0.5s;
+                        -webkit-transition: 0.5s;
+                        -moz-transition: 0.5s;
+                        -ms-transition: 0.5s;
+                        -o-transition: 0.5s;
+                    }
+                    &:hover i{
+                        transform: translateX(10px);
+                        -webkit-transform: translateX(10px);
+                        -moz-transform: translateX(10px);
+                        -ms-transform: translateX(10px);
+                        -o-transform: translateX(10px);
+                    }
+                }
+            }
+        }&:hover .pro_img_over{
+            width: 396px;
+            opacity: 1;
+        }
+        &:hover .pro_o_text{
+            left: 50%;
+        }
+    }
+    .pro_sample{
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 32px;
+        .pro_sample_over{
+            position: absolute;
+            width: 100%;
+            height: 0%;
+            top: 0;
+            left: 0;
+            background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+            opacity: 0;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            .pro_sample_text{
+                position: absolute;
+                bottom: 0px;
+                left: 56px;
+                transition: 1.2s;
+                -webkit-transition: 1.2s;
+                -moz-transition: 1.2s;
+                -ms-transition: 1.2s;
+                -o-transition: 1.2s;
+                h4{
+                    width: 250px;
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: #fff;
+                    line-height: 36px;
+                }
+                .proo{
+                    a{
+                        margin-right: 18px;
+                        font-weight: 500;
+                        color: #FCD980;
+                    }
+                    i{
+                        color: #FCD980;
+                        margin-top: 5px;
+                        transition: 0.5s;
+                        -webkit-transition: 0.5s;
+                        -moz-transition: 0.5s;
+                        -ms-transition: 0.5s;
+                        -o-transition: 0.5s;
+                    }
+                    &:hover i{
+                        transform: translateX(10px);
+                        -webkit-transform: translateX(10px);
+                        -moz-transform: translateX(10px);
+                        -ms-transform: translateX(10px);
+                        -o-transform: translateX(10px);
+                    }
+                }                
+            }
+        }
+        &:hover .pro_sample_over{
+            height: 100%;
+            opacity: 1;
+        }
+        &:hover .pro_sample_text{
+            bottom: 45px;
+        }
+    }
+}

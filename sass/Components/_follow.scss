@@ -1,0 +1,77 @@
+#follow{
+    padding-bottom: 128px;
+    .follow_head{
+        h4{
+            font-size: 48px;
+            font-weight: 600;
+            margin-bottom: 48px;
+            color: #282938;
+        }
+    }
+    .follow_item{
+        .follow_slide{
+            position: relative;
+            padding: 45px 0;
+            .follow_one{
+                position: absolute;
+                top: 50%;
+                left: 0%;
+                transform: translateY(-50%,);
+                width: 24px;
+                height: 24px;
+                background-color: #2405F2;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                -webkit-transform: translateY(-50%,);
+                -moz-transform: translateY(-50%,);
+                -ms-transform: translateY(-50%,);
+                -o-transform: translateY(-50%,);
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+            }
+            .follow_two{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 224px;
+                border: 2px dashed #2405F2;
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+                transition: 0.5s;
+                opacity: 0.4;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+            }
+        }
+        .follow_text{
+            h4{
+                color: #282938;
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 24px;
+            }
+            p{
+                line-height: 28px;
+            }
+        }
+        &:hover .follow_one{
+            left: 240px;
+        }
+        &:hover{
+            .follow_two{
+                left: 112px;
+            }
+        }
+    }
+}

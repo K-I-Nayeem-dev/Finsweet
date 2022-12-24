@@ -1,0 +1,21 @@
+#a_problem{
+    margin: 128px 0;
+    .problem_text{
+        margin-top: 40px;
+        h6{
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        h2{
+            font-size: 54px;
+            font-weight: 600;
+            line-height: 74px;
+            margin-bottom: 30px;
+        }
+        p{
+            width: 484px;
+            line-height: 28px;
+        }
+    }
+}

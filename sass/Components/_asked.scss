@@ -1,0 +1,58 @@
+#asked{
+    padding: 128px 0;
+    .work_text{
+        h2{
+            width: 350px;
+            font-size: 38px;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+        .touch{
+            a{
+                margin-right: 18px;
+                font-weight: 500;
+                color: #2405F2;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+.accordion{
+    margin-top: -20px;
+}
+.accordion-item{
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #DFDFDF;
+    .accordion-header{
+        button{
+            font-size: 24px;
+            border: none;
+            background-color: transparent;
+        }
+    }
+    .num_btn{
+        margin-right: 60px;
+        font-size: 24px;
+        color: #2405F2;
+        font-family: Poppins;
+    }
+    .accordion-body{
+        p{
+           width: 620px;
+           margin: 0 auto;
+           line-height: 32px;
+        }
+    }
+    &:last-child{
+        border-bottom: none;
+    }
+}
+.accordion-button:not(.collapsed){
+    color: #000;
+    outline: none;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+.accordion-item .accordion-header button {
+	outline: none;
+}

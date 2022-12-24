@@ -1,0 +1,108 @@
+#contact{
+    padding: 128px 0;
+    .container{
+        width: 1061px;
+        .con_head{
+            margin-bottom: 64px;
+            h4{
+                font-size: 48px;
+                line-height: 64px;
+                font-weight: 600;
+                color: #282938;
+                margin-bottom: 16px;
+            }
+            p{
+                width: 562px;
+                margin: 0 auto;
+                color: #282938;
+                opacity: 0.7;
+                line-height: 28px;
+            }
+        }
+        .con_from{
+            padding: 55px 76px 69px 74px;
+            background-color: #F4F6FC;
+            border-radius: 12px;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -ms-border-radius: 12px;
+            -o-border-radius: 12px;
+            .con_input{
+                label{
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 32px;
+                    margin-bottom: 6px;
+                }
+                input{
+                    width: 438px;
+                    padding: 18px 28px;
+                    outline: none;
+                    border: 1px solid rgba(0, 0, 0, 0.12);
+                    background-color: transparent;
+                    border-radius: 8px;
+                    -webkit-border-radius: 8px;
+                    -moz-border-radius: 8px;
+                    -ms-border-radius: 8px;
+                    -o-border-radius: 8px;
+                    &::placeholder{
+                        font-size: 18px;
+                        color: #000;
+                    }
+                    &:focus{
+                        border: 1px solid blue;
+                    }
+                }
+            }
+        }
+        .con_text{
+            label{
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 32px;
+                margin-bottom: 6px;
+            }
+            textarea{
+                padding: 18px 32px;
+                width: 100%;
+                height: 138px;
+                background-color: transparent;
+                outline: none;
+                border: 1px solid rgba(0, 0, 0, 0.12);
+                border-radius: 8px;
+                -webkit-border-radius: 8px;
+                -moz-border-radius: 8px;
+                -ms-border-radius: 8px;
+                -o-border-radius: 8px;
+                &:focus{
+                    border: 1px solid blue;
+                }
+                &::placeholder{
+                    font-size: 18px;
+                    color: #000;
+                }
+                
+            }
+        }
+        .con_btn{
+            margin-top: 32px;
+            a{
+                padding: 16px 64px;
+                background-color: #282938;
+                border-radius: 41px;
+                -webkit-border-radius: 41px;
+                -moz-border-radius: 41px;
+                -ms-border-radius: 41px;
+                -o-border-radius: 41px;
+                font-size: 18px;
+                font-weight: 600;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.con2{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}

@@ -1,0 +1,40 @@
+#blog{
+    padding-top: 128px;
+    .blog2{
+        margin-top: 14px;
+    }
+}
+#study{
+    padding-top: 128px;
+    .study_text{
+        h4{
+           width: 949px; 
+           margin: 0 auto;
+           font-size: 48px;
+           font-weight: 600;
+           line-height: 64px;
+           color: #282938;
+           margin-bottom: 16px;
+        }
+        p{
+            font-weight: 500;
+            line-height: 28px;
+            margin-bottom: 32px;
+            color: #282938;
+        }
+        img{
+            margin-bottom: 48px;
+        }
+        h6{
+            line-height: 28px;
+            color: #282938;
+            opacity: 0.7;
+            width: 831px;
+            margin: 0 auto;
+            margin-bottom: 16px;
+        }
+        a{
+            color: #2405F2;
+        }
+    }
+}

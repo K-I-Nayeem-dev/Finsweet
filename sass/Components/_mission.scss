@@ -1,0 +1,160 @@
+#mission{
+    padding: 128px 0;
+    background-color: #EEF4FA;
+    .mission_text{
+        h6{
+            font-weight: 500;
+        }
+        h4{
+            color: #282938;
+            font-size: 38px;
+            font-weight: 600;
+        }
+        p{
+            line-height: 28px;
+            color: #282938;
+            opacity: 0.7;
+        }
+    }
+}
+.mission2{
+    margin-top: 96px;
+}
+#featuree{
+    padding-top: 128px;
+    padding-bottom: 96px;
+    .feat_headd{
+        margin-bottom: 47px;
+       h2{
+        font-weight: 600;
+        font-size: 48px;
+        width: 630px;
+        margin: 0 auto;
+       } 
+    }
+    .feat_item{
+        padding: 58px 32.58px 48px 45.48px;
+        background-color: #F4F6FC;
+        position: relative;
+        height: 316px;
+        .feat_icon{
+            i{
+                position: absolute;
+                top: 25%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+               font-size: 80px;
+               transition: 0.5s;
+               -webkit-transition: 0.5s;
+               -moz-transition: 0.5s;
+               -ms-transition: 0.5s;
+               -o-transition: 0.5s;
+               color: royalblue;
+            }
+        }
+        .feat_text{
+            position: absolute;
+            width: 280px;
+            bottom: 15px;
+            left: 30px;
+            transition: 0.8s;
+            -webkit-transition: 0.8s;
+            -moz-transition: 0.8s;
+            -ms-transition: 0.8s;
+            -o-transition: 0.8s;
+            h4{
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 12;
+            }
+            p{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+                color: #282938;
+            }
+        }
+        &:hover i{
+            color: #000;
+            font-size: 25px;
+            left: 48px;
+        }
+        &:hover .feat_text{
+            bottom: 30px;
+        }
+    }
+}
+.brands{
+    margin-top: 48px;
+    .brand_head{
+        h4{
+           font-size: 38px; 
+           font-weight: 600;
+           color: #282938;
+           margin-bottom: 15px;
+        }
+        p{
+            color: #282938;
+            opacity: 0.7;
+        }
+    }
+    .b_img{
+        margin-top: 24px;
+        text-align: end;
+        margin-right: 15px;
+    }
+}
+#team{
+    padding: 128px 0;
+    background-color: #F4F6FC;
+    .follow_head{
+        h4{
+            font-size: 48px;
+            font-weight: 600;
+            margin-bottom: 48px;
+            color: #282938;
+        }
+    }
+    .team_item{
+        background-color: #fff;
+        padding-top: 48px;
+        .team_img{
+            width: 100%;
+            height: 100%;
+            img{
+                border: 1px solid transparent;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+            }
+        }
+        .team_text{
+            margin-top: 30px;
+            padding-bottom: 10px;
+            h5{
+                font-size: 24px;
+                font-weight: 500;
+                color: #1D2130;
+            }
+            p{
+                color: #1D2130;
+                opacity: 0.7;
+            }
+        }
+        &:hover .team_img img{
+            border: 1px solid #000;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+    }
+}
